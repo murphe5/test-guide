@@ -14,17 +14,13 @@
   - [ ] [MySQL 1.8](http://docs.pivotal.io/p-mysql/1-8/scaling-down.html#check-health)
   - [ ] [MySQL 1.7](http://docs.pivotal.io/p-mysql/1-7/scaling-down.html#check-health)
 
-## Symptoms
-
-When to execture this? @TODO
-
 ## Procedure
 
 ### Triage (Required)
   - [ ] Complete the required [triage for MySQL](../README.md#triage-required)
   
-### Delete the dummy database 
-- [ ] Replace FIRST-NODE-IP-ADDRESS with the IP address of the first MySQL server node and YOUR-IDENTITY with the identity value obtained above. When prompted for a password, provide the password value obtained above.
+### Scale down your cluster
+- [ ] Delete the dummy database. When prompted for a password, provide the password value obtained above.
 ```
 $ mysql -h FIRST-NODE-IP-ADDRESS -u YOUR-IDENTITY -p -e "drop database verify_healthy;"
 ```
@@ -35,11 +31,6 @@ $ mysql -h FIRST-NODE-IP-ADDRESS -u YOUR-IDENTITY -p -e "drop database verify_he
 - [ ] Click **Resource Config** and use the drop-down menu to change the Instances count for **MySQL Server** to **1**.
 
 - [ ] Click **Save** to apply the changes.
-
-
-## Resources
-For step by step details check the [Prerequisites](#Prerequisites) section above.
-
 
 
 ###### [Runbooks](../Runbook.md)
