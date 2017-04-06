@@ -28,13 +28,13 @@ When to execture this? @TODO
 ```
 $ mysql -h FIRST-NODE-IP-ADDRESS -u YOUR-IDENTITY -p -e "drop database verify_healthy;"
 ```
-- [ ] From the PCF Installation Dashboard, click the MySQL for Pivotal Cloud Foundry tile.
+- [ ] From the PCF **Installation Dashboard**, click the **MySQL for Pivotal Cloud Foundry** tile.
 
-- [ ] Click the Settings tab.
+- [ ] Click the **Settings** tab.
 
-- [ ] Click Resource Config and use the drop-down menu to change the Instances count for MySQL Server to 1.
+- [ ] Click **Resource Config** and use the drop-down menu to change the Instances count for **MySQL Server** to **1**.
 
-- [ ] Click Save to apply the changes.
+- [ ] Click **Save** to apply the changes.
 
 
 ## Resources
