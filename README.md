@@ -1,6 +1,6 @@
 # Scaling Down MySQL Runbook:
 
-### @TODO https://www.pivotaltracker.com/story/show/141213893
+<!-- @TODO https://www.pivotaltracker.com/story/show/141213893  -->
 
 ### Table of Contents
 - [Prerequisites](#prerequisites)
