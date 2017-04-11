@@ -1,0 +1,56 @@
+# Accidental deletion of a Service Plan Runbook:
+
+<!-- @TODO https://www.pivotaltracker.com/story/show/141295061 -->
+### Table of Contents
+- [Prerequisites](#prerequisites)
+- [Symptoms](#Symptoms)
+- [Procedure](#procedure)
+  - [Triage (Required)](#triage)
+  - [Install the UAA CLI and authenticate](#bootsrap-mysql)
+  - [Validate MySQL password](#validate-mysql-password)
+- [Resources](#resources)
+
+## Prerequisites
+- [ ] If you have accidentally deleted a Service Plan please read the following:
+  - [ ] [MySQL 1.8](http://docs.pivotal.io/p-mysql/1-8/known-issues.html#service-plan-deletion)
+  - [ ] [MySQL 1.7](http://docs.pivotal.io/p-mysql/1-7/known-issues.html#service-plan-deletion)
+
+## Symptoms
+
+The service plan you expect to exist is no longer available. If and only if the Operator does all of these steps in sequence, a plan will become “unrecoverable”:
+  1. Click the trash-can icon in the Service Plan screen
+  2. Enter a plan with the exact same name
+  3. Click the ‘Save’ button on the same screen
+  4. Return to the Ops Manager top-level, and click 'Apply Changes’
+After clicking 'Apply Changes’, the deploy will eventually fail with the error:
+```
+Server error, status code: 502, error code: 270012, message: Service broker catalog is invalid: Plan names must be unique within a service
+```
+
+## Procedure
+
+### Triage (Required)
+  - [ ] If you have committed steps 1 and 2, but not 4, no problem. Do not hit the 'Save’ button. Simply return to the Installation Dashboard. Any accidental changes will be discarded.
+  - [ ] If you have committed steps 1, 2 and 3, do not click 'Apply Changes.’ Instead, return to the Installation Dashboard and click the ’Revert’ button. Any accidental changes will be discarded.
+  
+
+## Resources
+For step by step details check the [Prerequisites](#prerequisites) section above.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### [Runbooks](../Runbook.md)
