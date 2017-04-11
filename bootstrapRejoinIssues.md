@@ -33,15 +33,19 @@ For **bootstrapping**, you must use the manual bootstrap instructions to restore
 
 For **rejoin-unsafe**, you must follow these steps:
 - [ ] Log into the node which has tripped the interruptor and become root.
+- [ ] Stop mariadb_ctrl 
 ```
 monit stop mariadb_ctrl
 ```
+- [ ] Remove the mysql directory from the persistent disk
 ```
 rm -rf /var/vcap/store/mysql
 ```
+- [ ] Run the pre-start script
 ```
 /var/vcap/jobs/mysql/bin/pre-start
 ```
+- [ ] Start mariadb_ctrl
 ```
 monit start mariadb_ctrl
 ```
