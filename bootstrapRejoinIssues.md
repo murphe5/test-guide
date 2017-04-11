@@ -3,7 +3,6 @@
 <!-- @TODO https://www.pivotaltracker.com/n/projects/1968443/stories/141294911 -->
 
 ### Table of Contents
-- [Prerequisites](#prerequisites)
 - [Symptoms](#Symptoms)
 - [Procedure](#procedure)
   - [Triage (Required)](#triage)
@@ -33,10 +32,6 @@ rm -rf /var/vcap/store/mysql
 monit start mariadb_ctrl
 
 
-## Prerequisites
-- [ ] If you have accidentally deleted a Service Plan please read the following:
-  - [ ] [MySQL 1.8](http://docs.pivotal.io/p-mysql/1-8/known-issues.html#service-plan-deletion)
-  - [ ] [MySQL 1.7](http://docs.pivotal.io/p-mysql/1-7/known-issues.html#service-plan-deletion)
 
 
 
