@@ -1,22 +1,6 @@
-# Bootstrap and Rejoin-Unsafe Errand Issue
- 
-There is an issue in versions 1.8.0 - 1.8.2 in which the bootstrap and rejoin-unsafe errands fail with an error like this:
-Error 100: Unable to render jobs for instance group 'rejoin-unsafe'. Errors are:
-   - Unable to render templates for job 'rejoin-unsafe'. Errors are:
-     - Error filling in template 'config.yml.erb' (line 8: Can't find link 'arbitrator')
-This is a bug in those releases. It will be addressed in a coming release. In the meanwhile, it may be necessary to perform these steps manually:
+# Accidental deletion of a Service Plan Runbook:
 
-For boostrap, you must use the manual bootstrap instructions to restore access to the cluster.
-For rejoin-unsafe, you must follow these steps:
-Log into the node which has tripped the interruptor and become root.
-monit stop mariadb_ctrl
-rm -rf /var/vcap/store/mysql
-/var/vcap/jobs/mysql/bin/pre-start
-monit start mariadb_ctrl
-
-
-
-<!-- @TODO https://www.pivotaltracker.com/n/projects/1968443/stories/141294911 -->
+<!-- @TODO https://www.pivotaltracker.com/story/show/141295061 -->
 ### Table of Contents
 - [Prerequisites](#prerequisites)
 - [Symptoms](#Symptoms)
