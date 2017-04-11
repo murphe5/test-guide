@@ -3,7 +3,7 @@
 <!-- @TODO https://www.pivotaltracker.com/n/projects/1968443/stories/141294911 -->
 
 ### Table of Contents
-- [Symptoms](#Symptoms)
+- [Symptoms](## Symptoms)
 - [Triage (Required)](#triage)
 - [Procedure](#procedure)
   - [Install the UAA CLI and authenticate](#bootsrap-mysql)
