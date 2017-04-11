@@ -4,8 +4,8 @@
 
 ### Table of Contents
 - [Symptoms](#Symptoms)
+- [Triage (Required)](#triage)
 - [Procedure](#procedure)
-  - [Triage (Required)](#triage)
   - [Install the UAA CLI and authenticate](#bootsrap-mysql)
   - [Validate MySQL password](#validate-mysql-password)
 - [Resources](#resources)
@@ -19,10 +19,19 @@ Error 100: Unable to render jobs for instance group 'rejoin-unsafe'. Errors are:
      
 ```
 
+## Triage (Required)
+
+ Complete the required triage for MySQL
+
 ## Procedure
 This is a bug in those releases. It will be addressed in a coming release. In the meanwhile, it may be necessary to perform these steps manually:
 
-For bootstrap, you must use the manual bootstrap instructions to restore access to the cluster.
+For bootstrapping, you must use the manual bootstrap instructions to restore access to the cluster.:
+  - [ ] [MySQL 1.9](http://docs.pivotal.io/p-mysql/1-9/bootstrapping.html#manual-bootstrap)
+  - [ ] [MySQL 1.8](http://docs.pivotal.io/p-mysql/1-8/bootstrapping.html#manual-bootstrap)
+  - [ ] [MySQL 1.7](http://docs.pivotal.io/p-mysql/1-7/bootstrapping.html#manual-bootstrap)
+
+
 
 For rejoin-unsafe, you must follow these steps:
 Log into the node which has tripped the interruptor and become root.
