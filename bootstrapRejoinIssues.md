@@ -7,7 +7,7 @@
 - [Prerequisites](#prerequisites)
 - [Triage (Required)](#triage)
 - [Procedure](#procedure)
-  - [Manual Bootstrap](#manual bootstrapping)
+  - [Manual Bootstrap](#manual-bootstrapping)
   - [Rejoin-unsafe](#rejoin-unsafe)
 - [Resources](#resources)
 
