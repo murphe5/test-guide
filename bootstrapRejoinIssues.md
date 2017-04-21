@@ -29,7 +29,7 @@ This is a bug in those releases. It will be addressed in a coming release.
   
 ## Triage (Required)
 
- Complete the required triage for MySQL
+ - [ ] Complete the required [triage for MySQL](../README.md#triage-required)
 
 ## Procedure
  Follow these steps to avoid the issue:
