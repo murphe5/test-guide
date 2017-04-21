@@ -5,7 +5,7 @@
 ### Table of Contents
 - [Symptoms](#symptoms)
 - [Prerequisites](#prerequisites)
-- [Triage (Required)](#triage)
+- [Triage (Required)](#triage-(required))
 - [Procedure](#procedure)
   - [Manual Bootstrap](#manual-bootstrapping)
   - [Rejoin-unsafe](#rejoin-unsafe)
