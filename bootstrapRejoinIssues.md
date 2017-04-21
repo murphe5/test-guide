@@ -18,13 +18,14 @@ Error 100: Unable to render jobs for instance group 'rejoin-unsafe'. Errors are:
      - Error filling in template 'config.yml.erb' (line 8: Can't find link 'arbitrator')
      
 ```
+This is a bug in those releases. It will be addressed in a coming release.
 
 ## Triage (Required)
 
  Complete the required triage for MySQL
 
 ## Procedure
-This is a bug in those releases. It will be addressed in a coming release. In the meanwhile, it may be necessary to perform these steps manually:
+ Follow these steps to avoid the issue:
 
 For **bootstrapping**, you must use the manual bootstrap instructions to restore access to the cluster.:
   - [ ] [MySQL 1.9](http://docs.pivotal.io/p-mysql/1-9/bootstrapping.html#manual-bootstrap)
