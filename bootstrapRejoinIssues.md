@@ -3,7 +3,7 @@
 <!-- @TODO https://www.pivotaltracker.com/n/projects/1968443/stories/141294911 -->
 
 ### Table of Contents
-- [Symptoms](# Symptoms)
+- [Symptoms](#symptoms)
 - [Triage (Required)](#triage)
 - [Procedure](#procedure)
   - Manual Bootstrap
