@@ -7,8 +7,8 @@
 - [Prerequisites](#prerequisites)
 - [Triage (Required)](#triage)
 - [Procedure](#procedure)
-  - [Manual Bootstrap](#Manual Bootstrapping)
-  - [Rejoin-unsafe](#Rejoin-unsafe)
+  - [Manual Bootstrap](#manual bootstrapping)
+  - [Rejoin-unsafe](#rejoin-unsafe)
 - [Resources](#resources)
 
 ## Symptoms
