@@ -7,8 +7,8 @@
 - [Prerequisites](#prerequisites)
 - [Triage (Required)](#triage)
 - [Procedure](#procedure)
-  - [Manual Bootstrap](#bootstrapping)
-  - [Rejoin-unsafe](#rejoin-unsafe)
+  - [Manual Bootstrap](#Manual Bootstrapping)
+  - [Rejoin-unsafe](#Rejoin-unsafe)
 - [Resources](#resources)
 
 ## Symptoms
@@ -34,11 +34,13 @@ This is a bug in those releases. It will be addressed in a coming release.
 ## Procedure
  Follow these steps to avoid the issue:
 
+### Manual Bootstrapping
 For **bootstrapping**, you must use the manual bootstrap instructions to restore access to the cluster.:
   - [ ] [MySQL 1.9](http://docs.pivotal.io/p-mysql/1-9/bootstrapping.html#manual-bootstrap)
   - [ ] [MySQL 1.8](http://docs.pivotal.io/p-mysql/1-8/bootstrapping.html#manual-bootstrap)
   - [ ] [MySQL 1.7](http://docs.pivotal.io/p-mysql/1-7/bootstrapping.html#manual-bootstrap)
 
+### Rejoin-unsafe
 For **rejoin-unsafe**, you must follow these steps:
 - [ ] Log into the node which has tripped the interruptor and become root.
 - [ ] Stop mariadb_ctrl 
