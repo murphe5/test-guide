@@ -6,8 +6,8 @@
 - [Symptoms](# Symptoms)
 - [Triage (Required)](#triage)
 - [Procedure](#procedure)
-  - [Install the UAA CLI and authenticate](#bootsrap-mysql)
-  - [Validate MySQL password](#validate-mysql-password)
+  - Manual Bootstrap
+  - Rejoin-unsafe
 - [Resources](#resources)
 
 ## Symptoms
