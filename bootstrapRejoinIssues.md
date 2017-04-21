@@ -6,8 +6,8 @@
 - [Symptoms](#symptoms)
 - [Triage (Required)](#triage)
 - [Procedure](#procedure)
-  - Manual Bootstrap
-  - Rejoin-unsafe
+  - [Manual Bootstrap](#bootstrapping)
+  - [Rejoin-unsafe]
 - [Resources](#resources)
 
 ## Symptoms
