@@ -11,7 +11,7 @@
 - [Resources](#resources)
 
 ## Symptoms
-There is an issue in versions 1.8.0 - 1.8.2 in which the bootstrap and rejoin-unsafe errands fail with an error like this:
+There is an issue in versions 1.8.0 - 1.8.2 in which the **bootstrap** and **rejoin-unsafe** errands fail with an error like this:
 ```
 Error 100: Unable to render jobs for instance group 'rejoin-unsafe'. Errors are:
    - Unable to render templates for job 'rejoin-unsafe'. Errors are:
