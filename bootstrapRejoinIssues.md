@@ -23,7 +23,7 @@ This is a bug in those releases. It will be addressed in a coming release.
 
 ## Prerequisites
 - [ ] Before scaling down your MySQL cluster, perform the following actions to ensure the cluster is healthy.:
-  - [ ] [MySQL 1.9](http://docs.pivotal.io/p-mysql/1-9/mysql-diag.html#healthy) MySQL-diag tool
+  - [ ] [MySQL 1.9](http://docs.pivotal.io/p-mysql/1-9/mysql-diag.html#healthy) 
   - [ ] [MySQL 1.8](http://docs.pivotal.io/p-mysql/1-8/scaling-down.html#check-health)
   - [ ] [MySQL 1.7](http://docs.pivotal.io/p-mysql/1-7/scaling-down.html#check-health)
   
